@@ -819,7 +819,15 @@ section .content-section-banner-bg-links .container-section-banner-bg-links .con
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 15px;
+}
+section .content-section-banner-bg-links .container-section-banner-bg-links .content-info .content-links p {
+  margin: 0;
+}
+section .content-section-banner-bg-links .container-section-banner-bg-links .content-info .content-links p a {
+  margin: 0;
 }
 section .content-list-with-description {
   display: -ms-grid;
@@ -968,6 +976,7 @@ section .content-text-bg .container-text-bg p {
     padding: 70px;
   }
   section .content-section-banner-bg-links .container-section-banner-bg-links .content-info .content-links {
+    margin-top: 35px;
     gap: 25px;
   }
   section .content-list-with-description {
@@ -1107,7 +1116,15 @@ section .content-text-bg .container-text-bg p {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 15px;
+}
+.content-page-header .container-page-header .content-page-header-title .container-page-header-title .page-header-links p {
+  margin: 0;
+}
+.content-page-header .container-page-header .content-page-header-title .container-page-header-title .page-header-links p .btn {
+  margin: 0;
 }
 .content-page-header .container-page-header .content-page-header-image .container-page-header-image {
   height: 350px;

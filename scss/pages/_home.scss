@@ -63,9 +63,13 @@ section {
 					display: flex;
 					justify-content: center;
 					align-items: center;
+					flex-wrap: wrap;
 					gap: 15px;
 					p {
-						a {}
+						margin: 0; 
+						a { 
+							margin: 0; 
+						}
 					}
 				}
 			}
@@ -238,6 +242,7 @@ section {
 				.content-info {
 					p {}
 					.content-links {
+						margin-top: 35px;
 						gap: 25px;
 						p {
 							a {}
