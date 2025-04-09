@@ -77,10 +77,13 @@ section {
 	.content-list-with-description {
 		display: grid;
 		grid-gap: 25px;
+		.container-list-with-description:first-child {
+			margin-top: 25px;
+		}
 		.container-list-with-description {
 			display: grid;
-			grid-template-columns: 35% 1fr;
-			grid-gap: 35px;
+			grid-template-columns: 1fr;
+			grid-gap: 5px;
 			padding: 0 0 20px 0;
 			margin: 0 0 20px 0;
 			border-bottom: $border-size solid $corporative-color-2;
@@ -252,6 +255,9 @@ section {
 		}
 		.content-list-with-description {
 			display: grid;
+			.container-list-with-description:first-child {
+				margin-top: unset;
+			}
 			.container-list-with-description {
 				grid-template-columns: 0.6fr 1fr;
 				grid-gap: 35px;
