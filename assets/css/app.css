@@ -99,7 +99,7 @@ a.btn {
   border-radius: 8px;
   color: #ffffff;
   background-color: #2C786C;
-  font-size: 21px;
+  font-size: 17px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: inline-block;
@@ -122,7 +122,7 @@ a.btn-2 {
   border-radius: 8px;
   color: #FFA62B;
   background-color: transparent;
-  font-size: 21px;
+  font-size: 17px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: inline-block;
@@ -159,27 +159,27 @@ h1 strong, h1 b, h2 strong, h2 b, h3 strong, h3 b, h4 strong, h4 b, h5 strong, h
 }
 
 h1 {
-  font-size: 33px;
+  font-size: 29px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h3 {
-  font-size: 27px;
+  font-size: 23px;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h5 {
-  font-size: 21px;
+  font-size: 17px;
 }
 
 p {
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 130%;
 }
@@ -297,22 +297,22 @@ h5.pretitle {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 33px;
+    font-size: 29px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
   h3 {
-    font-size: 27px;
+    font-size: 23px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
   h5 {
-    font-size: 21px;
+    font-size: 17px;
   }
   p, a.btn, a.btn-2 {
-    font-size: 21px;
+    font-size: 17px;
   }
   section {
     margin-top: 70px;
@@ -321,6 +321,63 @@ h5.pretitle {
   }
 }
 @media (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p, a.btn, a.btn-2 {
+    font-size: 18px;
+  }
+  section {
+    margin-top: 85px;
+    margin-bottom: 85px;
+    scroll-margin-top: 10px;
+  }
+  .content-button-go-top {
+    right: 5em;
+    bottom: -5em;
+  }
+  .content-button-go-top.visible {
+    bottom: 5em;
+  }
+}
+@media (min-width: 1367px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 29px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 23px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p, a.btn, a.btn-2 {
+    font-size: 20px;
+  }
+  section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    scroll-margin-top: 100px;
+  }
+}
+@media (min-width: 1921px) {
   h1 {
     font-size: 34px;
   }
@@ -338,63 +395,6 @@ h5.pretitle {
   }
   p, a.btn, a.btn-2 {
     font-size: 22px;
-  }
-  section {
-    margin-top: 85px;
-    margin-bottom: 85px;
-    scroll-margin-top: 10px;
-  }
-  .content-button-go-top {
-    right: 5em;
-    bottom: -5em;
-  }
-  .content-button-go-top.visible {
-    bottom: 5em;
-  }
-}
-@media (min-width: 1367px) {
-  h1 {
-    font-size: 36px;
-  }
-  h2 {
-    font-size: 33px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  h4 {
-    font-size: 27px;
-  }
-  h5 {
-    font-size: 24px;
-  }
-  p, a.btn, a.btn-2 {
-    font-size: 24px;
-  }
-  section {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    scroll-margin-top: 100px;
-  }
-}
-@media (min-width: 1921px) {
-  h1 {
-    font-size: 38px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 32px;
-  }
-  h4 {
-    font-size: 29px;
-  }
-  h5 {
-    font-size: 26px;
-  }
-  p, a.btn, a.btn-2 {
-    font-size: 26px;
   }
   section {
     margin-top: 115px;
@@ -497,7 +497,7 @@ header.content-header #navigation nav ul li {
 }
 header.content-header #navigation nav ul li p {
   margin: 0;
-  text-transform: uppercase;
+  text-transform: unset;
 }
 header.content-header #navigation nav ul li p a {
   text-decoration: none;
@@ -1112,7 +1112,7 @@ section .content-text-bg .container-text-bg p {
   color: #fff;
 }
 .content-page-header .container-page-header .content-page-header-title .container-page-header-title h1 span, .content-page-header .container-page-header .content-page-header-title .container-page-header-title p span {
-  font-size: 21px;
+  font-size: 17px;
 }
 .content-page-header .container-page-header .content-page-header-title .container-page-header-title p {
   margin-top: 20px;
@@ -1142,6 +1142,14 @@ section .content-text-bg .container-text-bg p {
 .content-page-header .container-page-header .content-page-header-image .container-page-header-image {
   width: 100%;
 }
+.content-page-header .container-page-header .content-page-header-image .container-page-header-image video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
 .content-page-header .container-page-header .content-page-header-image .container-page-header-image picture img {
   width: 100%;
   height: 100%;
@@ -1167,7 +1175,7 @@ section .content-text-bg .container-text-bg p {
   color: #5E5F63;
 }
 .content-page-header-2 .container-page-header-2 .content-page-header-title .container-page-header-title h1 span {
-  font-size: 21px;
+  font-size: 17px;
 }
 
 @media (min-width: 992px) {
@@ -1184,7 +1192,7 @@ section .content-text-bg .container-text-bg p {
     margin: 0px 0px 150px 0px;
   }
   .content-page-header .container-page-header .content-page-header-title .container-page-header-title h1 span {
-    font-size: 24px;
+    font-size: 20px;
   }
   .content-page-header .container-page-header .content-page-header-title .container-page-header-title .page-header-links {
     -webkit-box-pack: start;
@@ -1197,7 +1205,7 @@ section .content-text-bg .container-text-bg p {
     padding-bottom: 35px;
   }
   .content-page-header-2 .container-page-header-2 .content-page-header-title .container-page-header-title h1 span {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1367px) {
@@ -1208,14 +1216,14 @@ section .content-text-bg .container-text-bg p {
     font-size: 42px;
   }
   .content-page-header .container-page-header .content-page-header-title .container-page-header-title h1 span {
-    font-size: 26px;
+    font-size: 22px;
   }
   .content-page-header-2 .container-page-header-2 {
     padding-top: 55px;
     padding-bottom: 55px;
   }
   .content-page-header-2 .container-page-header-2 .content-page-header-title .container-page-header-title h1 span {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1921px) {
@@ -1223,7 +1231,7 @@ section .content-text-bg .container-text-bg p {
     font-size: 42px;
   }
   .content-page-header .container-page-header .content-page-header-title .container-page-header-title h1 span {
-    font-size: 26px;
+    font-size: 22px;
   }
   .content-page-header .container-page-header .content-page-header-image .container-page-header-image {
     height: 700px;
@@ -1233,7 +1241,7 @@ section .content-text-bg .container-text-bg p {
     padding-bottom: 75px;
   }
   .content-page-header-2 .container-page-header-2 .content-page-header-title .container-page-header-title h1 span {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 section .content-image-text .container-image-info {

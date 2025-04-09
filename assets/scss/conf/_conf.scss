@@ -51,7 +51,7 @@ $header-page-title-color-span-scrolling: $corporative-color-2;
 //Menu
 $header-links-color-hover: $corporative-color-2;
 $header-links-color: $text;
-$header-links-text-transform: uppercase;
+$header-links-text-transform: unset;
 $header-links-text-decoration-hover: underline;
 $header-menu-justify: flex-end;
 $header-menu-li-styled-margin-left: unset; //auto
@@ -118,7 +118,7 @@ $text-weight: 400;
 $text-weight-strong: 600;
 $text-line-height: 130%;
 
-$fsize-increase: 10px;
+$fsize-increase: 6px;
 
 $fsize-p-mb: 11px + $fsize-increase;
 $fsize-p-sm: 11px + $fsize-increase;
