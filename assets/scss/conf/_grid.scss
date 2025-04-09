@@ -10,7 +10,7 @@
 }
 @media (min-width: $sm) {
   .container {
-		max-width: $sm - 50px;
+    max-width: $sm - 50px;
   }
 }
 @media (min-width: $md) {
@@ -25,26 +25,6 @@
 }
 @media (min-width: $xl) {
   .container {
-    max-width: $xl - 50px;
-  }
-}
-@media (min-width: $xxl) {
-  .container {
-    max-width: $xxl - 150px;
-  }
-}
-@media (min-width: $xxxl) {
-  .container {
-    max-width: $xxxl - 150px;
-  }
-}
-@media (min-width: $xxxl) {
-  .container {
-    max-width: $xxxl - 150px;
-  }
-}
-@media (min-width: $fhd) {
-  .container {
-    max-width: $fhd - 150px;
+    max-width: $xl - 350px;
   }
 }

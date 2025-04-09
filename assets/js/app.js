@@ -8,9 +8,16 @@ $(document).ready(function() {
     var height = jQuery(window).height();
     var width = jQuery(window).width();
 
+    var padding = $('.page-content').css('padding');
+
     if (height && width) {
-        jQuery(".page-content").css("min-height", height-headerHeight);
-        jQuery(".container-page-header-image").css("height", height-headerHeight);
+        if (padding == "0px") {
+            jQuery(".page-content").css("min-height", height);
+            jQuery(".container-page-header-image").css("height", height);
+        } else {
+            jQuery(".page-content").css("min-height", height-headerHeight);
+            jQuery(".container-page-header-image").css("height", height-headerHeight);
+        }
     }
 
     $('#responsive-menu-button').sidr({
@@ -20,6 +27,15 @@ $(document).ready(function() {
 
     $('body').on('click', function() {
         $.sidr('close', 'sidr-main');
+    });
+
+    $('body').swipe({
+        swipe: function(event, direction) {
+            if (direction === 'left') {
+                $.sidr('close', 'sidr-main');
+            }
+        },
+        threshold: 50
     });
 
     $('#sidr-main a').on('click', function() {
@@ -38,7 +54,7 @@ $(document).ready(function() {
                 items:2
             },
             1200:{
-                items:2
+                items:10
             }
         }
     });
@@ -77,10 +93,20 @@ jQuery(window).scroll(function (e) {
   previousScrollPosition = jQuery(window).scrollTop();
   //End Scroll: Global vars
 
+  if (scrollPosition <= 0) {
+    if ( $( "body" ).hasClass('front')) {
+        $( ".content-header" ).removeClass( "scrolling" );
+    }
+  } else if (scrollPosition > 0) {
+    if ( $( "body" ).hasClass('front')) {
+        $( ".content-header" ).addClass( "scrolling" );
+    }
+  }
+
   if (scrollPosition < 200) {
-      $( ".content-button-go-top" ).removeClass( "on-scroll-go-top" );
+      $( ".content-button-go-top" ).removeClass( "visible" );
   } else if (scrollPosition > 200) {
-      $( ".content-button-go-top" ).addClass( "on-scroll-go-top" );
+      $( ".content-button-go-top" ).addClass( "visible" );
   }
 
 });

@@ -1,5 +1,4 @@
 section {
-	scroll-margin-top: 110px; 
 	> div {
 	> div.container {
 		h2 {
@@ -191,9 +190,9 @@ section {
 		}
 	}
 }
+
 @media (min-width: $sm) {}
-@media (min-width: $md) {}
-@media (min-width: $lg) {
+@media (min-width: $md) {
 	section {
 		> div {
 		> div.container {
@@ -318,10 +317,8 @@ section {
 		}
 	}
 }
-@media (min-width: $xl) {}
-@media (min-width: $xxl) {}
-@media (min-width: $xxxl) {}
-@media (min-width: $fhd) {
+@media (min-width: $lg) {}
+@media (min-width: $xl) {
 	section {
 		> div {
 		> div.container {
@@ -416,4 +413,3 @@ section {
 		}
 	}
 }
-@media (min-width: $twok) {}
