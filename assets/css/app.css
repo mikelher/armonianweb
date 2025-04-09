@@ -455,7 +455,7 @@ header.content-header {
 header.content-header .content-header-logo .container-header-logo img {
   width: auto;
   height: 100%;
-  max-height: 75px;
+  max-height: 35px;
 }
 header.content-header .content-header-logo .container-header-logo h1 {
   font-size: 24px;
@@ -543,6 +543,9 @@ header.content-header.scrolling #navigation nav ul li.styled a:hover {
         -ms-flex-pack: start;
             justify-content: flex-start;
     padding: 0 60px;
+  }
+  header.content-header .content-header-logo .container-header-logo img {
+    max-height: 50px;
   }
   header.content-header .content-header-logo .container-header-logo h1 {
     font-size: 32px;

@@ -18,7 +18,7 @@ header.content-header {
         img {
           width: auto;
           height: 100%;
-          max-height: 75px;
+          max-height: 35px;
         }
         h1 {
           font-size: 24px;
@@ -119,6 +119,7 @@ header.content-header.scrolling {
       .content-header-logo {
         .container-header-logo {
           img {
+            max-height: 50px;
           }
           h1 {
           font-size: 32px;
